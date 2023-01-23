@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <div class="inputs">
+      <form>
+        <div class="input">
+          <label for="celsius">Celsius</label>
+          <input
+            type="number"
+            name="celsius"
+            id="celsius"
+            step="any"
+            placeholder="celsius"
+            oninput="convert(this.value, 'celsius')"
+          />
+        </div>
+        <div class="input">
+          <label for="fahrenheit">Fahrenheit</label>
+          <input
+            type="number"
+            name="fahrenheit"
+            id="fahrenheit"
+            step="any"
+            placeholder="fahrenheit"
+            oninput="convert(this.value, 'fahrenheit')"
+          />
+        </div>
+        <div class="input">
+          <label for="kelvin">Kelvin</label>
+          <input
+            type="number"
+            name="kelvin"
+            id="kelvin"
+            step="any"
+            placeholder="kelvin"
+            oninput="convert(this.value, 'kelvin')"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

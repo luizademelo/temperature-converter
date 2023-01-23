@@ -1,0 +1,37 @@
+body{
+    background-color: #B6F6EC;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+    margin-top: 9rem; 
+}
+
+.inputs{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 5rem;
+    height: 1rem;
+    margin-left: -7rem;
+    margin-top: -7rem; 
+}
+
+form{
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem; 
+}
+
+input{
+    width: 10rem; 
+    height: 2rem; 
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.input{
+    display: block;
+}
